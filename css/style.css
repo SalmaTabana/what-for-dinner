@@ -1,0 +1,114 @@
+.navbar{
+       box-shadow: 0px 5px 15px rgba(49, 47, 47, 0.3);
+}
+.img {
+    width: 40px;       
+    height: 40px;
+    object-fit: cover; 
+    border: 2px solid #f9a825; 
+}
+.right i:hover{
+color: #f96825;
+}
+.mainicon {
+    color: white;
+    background-color: #f96825;
+    width: 45px;       
+    height: 45px;       
+   box-shadow: 0px 10px 35px rgba(20, 19, 19, 0.3);
+}
+.hero{
+    background-color: rgb(255, 247, 236);
+}
+.image-wrapper {
+  
+    height: 700px; 
+    border-radius: 20px;
+    overflow: hidden;
+ 
+}
+
+.image-wrapper img {
+
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.info-box{
+    bottom: -50px;
+  left: 30%;
+  transform: translateX(-50%);
+}
+
+.custom-tabs .nav-link {
+  border: none;
+  padding: 10px 18px;
+  font-weight: 600;
+  color: #555;
+}
+
+.custom-tabs .nav-link.active {
+  color: #ff8a3d;
+  border-bottom: 3px solid #ff8a3d;
+  background: transparent;
+}
+
+.warning-box {
+  background: #ffe7e3;
+  border-left: 5px solid #ff6d5c;
+  color: #b12a1c;
+}
+
+/* Ingredient numbers */
+.ing-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.ing-list li span {
+  background: #ff8a3d;
+  color: white;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.info-box {
+  bottom: -40px;  
+  left: 25%;
+  transform: translateX(-50%); 
+  width: 400px;
+}
+.right-fixed {
+  height: 600px;      
+  overflow-y: auto;    
+  overflow-x: hidden;  
+  padding-right: 10px; 
+}
+.nutri-box .icon {
+  font-size: 20px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #fffafa;    
+}
+
+.nutri-box .info .label {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.nutri-box .info .value {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
